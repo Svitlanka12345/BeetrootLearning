@@ -1,1 +1,6 @@
-test
+cmd -> copy NUL .gitconfig (create config file for git)
+open gitconfig with Notepad-> enter: [user] 'enter' ' tab' email=... 'enter' tab' user=... 'save'
+check configuration-> cmd-> git config --list --global
+create Git folder on disk C -> change directory in cmd: cd C:\Git
+clone repository in cmd: git clone https:\..... (https of repository)
+push file from PC to GitHub: open Git folder with cloned repository-> click right button of mouse-> choode Git Bash Here-> GitBash Here is opened-> git status-> add file to cloned repo-> git add.-> git commit -m "Add 'file name' file"-> git push
